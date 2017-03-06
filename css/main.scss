@@ -1,0 +1,658 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*******************************/
+/***********HOME PAGE***********/
+/*******************************/
+
+
+
+/********* BANNER *********/
+
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    background: #fff;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:active {
+    color: #808080;
+}
+
+.demo {
+    color: #fff;
+    
+    h1 {
+        padding-top: 150px;
+    }
+    
+    .sub-heading {
+        font-size: 2.5rem;
+    }
+}
+
+#banner {
+    width: 100%;
+    height: 400px;
+    margin-top: -20px;
+    background-image: url('../img/mountain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#myCarousel {
+    margin-top: -20px;
+}
+
+
+
+/********* MISSION *********/
+
+
+
+#mission {
+    .pd {
+        padding: 30px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    p {
+        font-size: 1.7rem;
+    }
+}
+
+
+
+/********* ABOUT *********/
+
+
+
+#about {
+    margin-top: 30px;
+    
+    hr {
+        width: 70px;
+    }
+    
+    span {
+        font-size: 3rem;
+    }
+    
+    .about-us {
+        display: flex;
+    }
+
+    .box-1 {
+        width: 20%;
+        height: 180px;
+        color: #fff;
+        padding-top: 60px;
+        background: #808080;
+    }
+
+    .box-2 {
+        width: 80%;
+        height: 180px;
+        padding: 40px 50px;
+        background: #eee;
+        
+        p {
+            font-size: 1.7rem;
+            padding-bottom: 10px;
+        }
+        
+        a {
+            padding: 5px 10px;
+            font-weight: bold;
+            background: #fff;
+            border: 1px solid #fff;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -o-border-radius: 12px;
+            border-radius: 12px;
+            
+            &:hover {
+                background: #eee;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+
+
+/********* SERVICES *********/
+
+
+
+#services {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
+    hr {
+        width: 70px;
+    }
+    
+    span {
+        font-size: 3rem;
+    }
+    
+    .service-container {
+        display: flex;
+    }
+
+    .box-1 {
+        width: 20%;
+        height: 180px;
+        color: #fff;
+        padding-top: 60px;
+        background: #808080;
+//        animation: fade 5s infinite;
+        
+//        @keyframes fade {
+//            0% { background: #e85e5e}
+//            100% { background: #808080}
+//        }
+    }
+
+    .box-2 {
+        width: 80%;
+        height: 180px;
+        padding: 40px 50px;
+        background: #eee;
+        
+        p {
+            font-size: 1.7rem;
+            padding-bottom: 10px;
+        }
+        
+        a {
+            padding: 5px 10px;
+            font-weight: bold;
+            background: #fff;
+            border: 1px solid #fff;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -o-border-radius: 12px;
+            border-radius: 12px;
+            
+            &:hover {
+                background: #eee;
+                text-decoration: none;
+            }
+        }
+        
+    }
+
+}
+
+
+/********* FOOTER *********/
+
+
+footer {
+    color: #fff;
+    background: #2b2727;
+    padding: 30px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.links {
+    p {
+        border-bottom: 1px dotted #fff;
+        padding-bottom: 5px;
+    }
+    
+    p a {
+        color: #fff;
+        &:hover {
+            color: #808080;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+
+
+/*******************************/
+/**********ABOUT PAGE***********/
+/*******************************/
+
+
+.banner {
+    width: 100%;
+    height: 250px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, .4);
+    background-image: url('../img/road.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    h1 {
+        color: #fff;
+        padding-top: 90px;
+    }
+    
+    hr {
+        width: 100px;
+    }
+}
+
+.about-contents {
+    p {
+        font-size: 1.7rem;
+    }
+    
+    .para {
+        padding-bottom: 20px;
+    }
+    
+    .ab-para {
+        padding: 20px 15px 50px 15px;
+    }
+}
+
+.social-media {
+    a {
+        margin: 0 10px;
+        outline: none;
+    }
+}
+
+
+
+/*******************************/
+/**********SERVICES PAGE********/
+/*******************************/
+
+.srv {
+    width: 100%;
+    height: 250px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, .4);
+    background-image: url('../img/car.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    h1 {
+        color: #fff;
+        padding-top: 90px;
+    }
+    
+    hr {
+        width: 100px;
+    }
+}
+
+
+.srv-para {
+    font-size: 1.7rem;
+    padding: 50px 15px;
+    
+    .sv-para {
+        padding-bottom: 20px;
+    }
+    
+    .list {
+        padding-top: 5px;
+        text-indent: 50px;
+        
+        li {
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.owner {
+    padding: 20px 15px;
+    
+    img {
+        width: 150px;
+        height: 150px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -o-border-radius: 100%;
+        border-radius: 100%;
+    }
+    
+    .title {
+        color: #5031FF;
+        font-weight: bold;
+        padding: 20px 0 15px 0;
+    }
+}
+
+
+
+/*******************************/
+/*********CONTACT PAGE**********/
+/*******************************/
+
+
+.cont-banner {
+    width: 100%;
+    height: 250px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, .4);
+    background-image: url('../img/mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    h1 {
+        color: #fff;
+        padding-top: 90px;
+    }
+    
+    hr {
+        width: 100px;
+    }
+}
+
+.info {
+    padding-bottom: 20px;
+}
+
+.pd {
+    padding: 50px 10px 70px 10px;
+}
+
+form {
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+    input {
+        width: 400px;
+        height: 35px;
+        margin-bottom: 8px;
+        padding: 5px;
+        border: 1px solid #000;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    textarea {
+        width: 400px;
+        height: 150px;
+        resize: none;
+        margin-bottom: 8px;
+        border: 1px solid #000;
+        outline: none;
+    }
+    
+    button {
+        background: transparent;
+        border: 1px solid #000;
+        padding: 5px 10px;
+        width: 100px;
+        
+        &:hover {
+            color: #fff;
+            background: #808080;
+            border: 1px solid #808080;
+            -webkit-transition: all .10s ease-in;
+            -moz-transition: all .10s ease-in;
+            -o-transition: all .10s ease-in;
+            transition: all .10s ease-in;
+        }
+    }
+}
+
+.map {
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+
+
+
+
+/********* MEDIA QUIRIES *********/
+
+@media all and ( max-width : 992px ) {
+    
+    #services {
+        
+        span {
+            font-size: 2rem;
+        }
+        
+        .box-1 {
+            height: 220px;
+            padding-top: 80px;
+        }
+
+        .box-2 {
+            height: 220px;
+        }    
+    }
+    
+    #about {
+        
+        span {
+            font-size: 2rem;
+        }
+        
+        .box-1 {
+            height: 220px;
+            padding-top: 80px;
+        }
+
+        .box-2 {
+            height: 220px;
+        }    
+    }
+    
+} //end of quiry
+
+
+
+@media all and ( max-width : 768px ) {
+    #myCarousel {
+        background-image: url('../img/africa1.jpg');
+    }
+}
+
+
+
+@media all and ( max-width : 766px ) {
+    #collapse-menu {
+        .navbar-nav {
+            text-align: center;
+            float: none;
+        }
+    }
+} //end of quiry
+
+
+
+@media all and ( max-width : 663px ) {
+    #services {
+        
+        .service-container {
+            display: block;
+        }
+        
+        span {
+            font-size: 1.8rem;
+        }
+        
+        .box-1 {
+            width: 100%;
+        }
+
+        .box-2 {
+            width: 100%;
+            height: 250px;
+        }
+        
+    }
+    
+    #about {
+        
+        .about-us {
+            display: block;
+        }
+        
+        span {
+            font-size: 1.8rem;
+        }
+        
+        .box-1 {
+            width: 100%;
+        }
+
+        .box-2 {
+            width: 100%;
+            height: 250px;
+        }
+        
+    }
+} //end of quiry
+
+
+
+
+@media all and ( max-width : 415px ) {
+    #about {
+        .box-2 {
+           height: 300px; 
+        
+           p {
+                text-align: center;
+            }
+        }
+    }
+    
+    #services {
+        .box-2 {
+           height: 300px;
+            
+           p {
+                text-align: center;
+            }
+        }
+    }
+    
+    form {
+        input {
+            width: 300px;
+        }
+        
+        textarea {
+            width: 300px;
+        }
+    }
+    
+} //end of quiry
+
+
+
+
+@media all and ( max-width : 375px ) {
+    #about {
+        .box-2 {
+            height: 350px;
+        }
+    }
+    
+    #services {
+        .box-2 {
+            height: 350px;
+        }
+    }
+} //end of quiry
+
+
+
+
+@media all and ( max-width : 321px ) {
+    #about {
+        .box-2 {
+            height: 420px;
+        }
+    }
+    
+    #services {
+        .box-2 {
+            height: 420px;
+        }
+    }
+} //end of quiry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+/*******************************/
+/***********HOME PAGE***********/
+/*******************************/
+/********* BANNER *********/
+.navbar {
+  border: none;
+  border-radius: 0;
+  background: #fff; }
+
+.navbar-nav {
+  float: right; }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a {
+  color: #000; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+  color: #808080; }
+
+.demo {
+  color: #fff; }
+  .demo h1 {
+    padding-top: 150px; }
+  .demo .sub-heading {
+    font-size: 2.5rem; }
+
+#banner {
+  width: 100%;
+  height: 400px;
+  margin-top: -20px;
+  background-image: url("../img/mountain.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#myCarousel {
+  margin-top: -20px; }
+
+/********* MISSION *********/
+#mission .pd {
+  padding: 30px; }
+#mission h1 {
+  font-size: 3rem; }
+#mission p {
+  font-size: 1.7rem; }
+
+/********* ABOUT *********/
+#about {
+  margin-top: 30px; }
+  #about hr {
+    width: 70px; }
+  #about span {
+    font-size: 3rem; }
+  #about .about-us {
+    display: flex; }
+  #about .box-1 {
+    width: 20%;
+    height: 180px;
+    color: #fff;
+    padding-top: 60px;
+    background: #808080; }
+  #about .box-2 {
+    width: 80%;
+    height: 180px;
+    padding: 40px 50px;
+    background: #eee; }
+    #about .box-2 p {
+      font-size: 1.7rem;
+      padding-bottom: 10px; }
+    #about .box-2 a {
+      padding: 5px 10px;
+      font-weight: bold;
+      background: #fff;
+      border: 1px solid #fff;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -o-border-radius: 12px;
+      border-radius: 12px; }
+      #about .box-2 a:hover {
+        background: #eee;
+        text-decoration: none; }
+
+/********* SERVICES *********/
+#services {
+  margin-top: 60px;
+  margin-bottom: 80px; }
+  #services hr {
+    width: 70px; }
+  #services span {
+    font-size: 3rem; }
+  #services .service-container {
+    display: flex; }
+  #services .box-1 {
+    width: 20%;
+    height: 180px;
+    color: #fff;
+    padding-top: 60px;
+    background: #808080; }
+  #services .box-2 {
+    width: 80%;
+    height: 180px;
+    padding: 40px 50px;
+    background: #eee; }
+    #services .box-2 p {
+      font-size: 1.7rem;
+      padding-bottom: 10px; }
+    #services .box-2 a {
+      padding: 5px 10px;
+      font-weight: bold;
+      background: #fff;
+      border: 1px solid #fff;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -o-border-radius: 12px;
+      border-radius: 12px; }
+      #services .box-2 a:hover {
+        background: #eee;
+        text-decoration: none; }
+
+/********* FOOTER *********/
+footer {
+  color: #fff;
+  background: #2b2727;
+  padding: 30px 0;
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.links p {
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 5px; }
+.links p a {
+  color: #fff; }
+  .links p a:hover {
+    color: #808080;
+    text-decoration: none; }
+
+/*******************************/
+/**********ABOUT PAGE***********/
+/*******************************/
+.banner {
+  width: 100%;
+  height: 250px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("../img/road.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .banner h1 {
+    color: #fff;
+    padding-top: 90px; }
+  .banner hr {
+    width: 100px; }
+
+.about-contents p {
+  font-size: 1.7rem; }
+.about-contents .para {
+  padding-bottom: 20px; }
+.about-contents .ab-para {
+  padding: 20px 15px 50px 15px; }
+
+.social-media a {
+  margin: 0 10px;
+  outline: none; }
+
+/*******************************/
+/**********SERVICES PAGE********/
+/*******************************/
+.srv {
+  width: 100%;
+  height: 250px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("../img/car.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .srv h1 {
+    color: #fff;
+    padding-top: 90px; }
+  .srv hr {
+    width: 100px; }
+
+.srv-para {
+  font-size: 1.7rem;
+  padding: 50px 15px; }
+  .srv-para .sv-para {
+    padding-bottom: 20px; }
+  .srv-para .list {
+    padding-top: 5px;
+    text-indent: 50px; }
+    .srv-para .list li {
+      padding-bottom: 5px; }
+
+.owner {
+  padding: 20px 15px; }
+  .owner img {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%; }
+  .owner .title {
+    color: #5031FF;
+    font-weight: bold;
+    padding: 20px 0 15px 0; }
+
+/*******************************/
+/*********CONTACT PAGE**********/
+/*******************************/
+.cont-banner {
+  width: 100%;
+  height: 250px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("../img/mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .cont-banner h1 {
+    color: #fff;
+    padding-top: 90px; }
+  .cont-banner hr {
+    width: 100px; }
+
+.info {
+  padding-bottom: 20px; }
+
+.pd {
+  padding: 50px 10px 70px 10px; }
+
+form {
+  font-family: 'Open Sans Condensed', sans-serif; }
+  form input {
+    width: 400px;
+    height: 35px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 1px solid #000; }
+    form input:focus {
+      outline: none; }
+  form textarea {
+    width: 400px;
+    height: 150px;
+    resize: none;
+    margin-bottom: 8px;
+    border: 1px solid #000;
+    outline: none; }
+  form button {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    width: 100px; }
+    form button:hover {
+      color: #fff;
+      background: #808080;
+      border: 1px solid #808080;
+      -webkit-transition: all .10s ease-in;
+      -moz-transition: all .10s ease-in;
+      -o-transition: all .10s ease-in;
+      transition: all .10s ease-in; }
+
+.map iframe {
+  width: 100%;
+  height: 250px; }
+
+/********* MEDIA QUIRIES *********/
+@media all and (max-width: 992px) {
+  #services span {
+    font-size: 2rem; }
+  #services .box-1 {
+    height: 220px;
+    padding-top: 80px; }
+  #services .box-2 {
+    height: 220px; }
+
+  #about span {
+    font-size: 2rem; }
+  #about .box-1 {
+    height: 220px;
+    padding-top: 80px; }
+  #about .box-2 {
+    height: 220px; } }
+@media all and (max-width: 768px) {
+  #myCarousel {
+    background-image: url("../img/africa1.jpg"); } }
+@media all and (max-width: 766px) {
+  #collapse-menu .navbar-nav {
+    text-align: center;
+    float: none; } }
+@media all and (max-width: 663px) {
+  #services .service-container {
+    display: block; }
+  #services span {
+    font-size: 1.8rem; }
+  #services .box-1 {
+    width: 100%; }
+  #services .box-2 {
+    width: 100%;
+    height: 250px; }
+
+  #about .about-us {
+    display: block; }
+  #about span {
+    font-size: 1.8rem; }
+  #about .box-1 {
+    width: 100%; }
+  #about .box-2 {
+    width: 100%;
+    height: 250px; } }
+@media all and (max-width: 415px) {
+  #about .box-2 {
+    height: 300px; }
+    #about .box-2 p {
+      text-align: center; }
+
+  #services .box-2 {
+    height: 300px; }
+    #services .box-2 p {
+      text-align: center; }
+
+  form input {
+    width: 300px; }
+  form textarea {
+    width: 300px; } }
+@media all and (max-width: 375px) {
+  #about .box-2 {
+    height: 350px; }
+
+  #services .box-2 {
+    height: 350px; } }
+@media all and (max-width: 321px) {
+  #about .box-2 {
+    height: 420px; }
+
+  #services .box-2 {
+    height: 420px; } }
+
+/*# sourceMappingURL=main.css.map */
